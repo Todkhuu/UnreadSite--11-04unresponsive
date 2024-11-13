@@ -1,0 +1,10 @@
+.footer-top {
+  position: absolute;
+  width: 100vw;
+  height: 82px;
+  background-color: #fafafa;
+  margin-top: -0px;
+  z-index: 1;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+}

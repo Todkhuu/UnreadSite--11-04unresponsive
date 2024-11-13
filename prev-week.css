@@ -1,0 +1,28 @@
+/* pre-week */
+.prev-week {
+  max-width: 1121px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  border-bottom: solid 2px #e6e6e6;
+}
+.prev-week h4 {
+  font-weight: 500;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
+  color: #888888;
+  border-bottom: solid 2px transparent;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.prev-week h4:hover {
+  color: #0078f6;
+  border-bottom-color: #0078f6;
+}
+
+@media screen and (max-width: 600px) {
+  .prev-week {
+    max-width: 560px;
+  }
+}

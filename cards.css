@@ -1,0 +1,251 @@
+/* slider */
+.cards {
+  max-width: 1624px;
+  height: 550px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: scroll;
+  gap: 32px;
+  margin-top: -220px;
+  cursor: pointer;
+}
+.card1 {
+  width: 293px;
+  height: 433px;
+  border-radius: 12px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3884147408963585) 100%,
+      rgba(9, 9, 121, 0.6097032563025211) 100%
+    ),
+    url("./avatar1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.3s linear;
+  padding: 12px 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card1:hover {
+  transform: scale(1.1);
+}
+.card2 {
+  width: 293px;
+  height: 433px;
+  border-radius: 12px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3884147408963585) 100%,
+      rgba(9, 9, 121, 0.6097032563025211) 100%
+    ),
+    url("./google.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.3s linear;
+  padding: 12px 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card2:hover {
+  transform: scale(1.1);
+}
+.card3 {
+  width: 293px;
+  height: 433px;
+  border-radius: 12px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3884147408963585) 100%,
+      rgba(9, 9, 121, 0.6097032563025211) 100%
+    ),
+    url(./kindle.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.3s linear;
+  padding: 12px 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card3:hover {
+  transform: scale(1.1);
+}
+.card4 {
+  width: 293px;
+  height: 433px;
+  border-radius: 12px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3884147408963585) 100%,
+      rgba(9, 9, 121, 0.6097032563025211) 100%
+    ),
+    url(./election.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.3s linear;
+  padding: 12px 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card4:hover {
+  transform: scale(1.1);
+}
+.card5 {
+  width: 293px;
+  height: 433px;
+  border-radius: 12px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3884147408963585) 100%,
+      rgba(9, 9, 121, 0.6097032563025211) 100%
+    ),
+    url(./nobel.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.3s linear;
+  padding: 12px 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card5:hover {
+  transform: scale(1.1);
+}
+.card6 {
+  width: 293px;
+  height: 433px;
+  border-radius: 12px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3884147408963585) 100%,
+      rgba(9, 9, 121, 0.6097032563025211) 100%
+    ),
+    url(./remember.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.3s linear;
+  padding: 12px 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card6:hover {
+  transform: scale(1.1);
+}
+.card7 {
+  width: 293px;
+  height: 433px;
+  border-radius: 12px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3884147408963585) 100%,
+      rgba(9, 9, 121, 0.6097032563025211) 100%
+    ),
+    url(./paper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.3s linear;
+  padding: 12px 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card7:hover {
+  transform: scale(1.1);
+}
+.slider-tops {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.border-top {
+  width: 190px;
+  height: 5px;
+  border-radius: 12px;
+  background-color: #0078f6;
+}
+.slider-bottoms {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.access {
+  display: flex;
+  align-items: center;
+  fill: #fff;
+  color: #fff;
+  font-size: 13px;
+}
+.access svg {
+  width: 21px;
+  height: 11px;
+}
+.slider-header h3 {
+  color: #fff;
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.border-bottom {
+  width: 64px;
+  height: 23px;
+  background-color: #0078f6;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+  .cards {
+    height: 300px;
+  }
+  .card1 {
+    max-width: 182px;
+    height: 242px;
+  }
+  .card2 {
+    max-width: 182px;
+    height: 242px;
+  }
+  .card3 {
+    max-width: 182px;
+    height: 242px;
+  }
+  .card4 {
+    max-width: 182px;
+    height: 242px;
+  }
+  .card5 {
+    max-width: 182px;
+    height: 242px;
+  }
+  .card6 {
+    max-width: 182px;
+    height: 242px;
+  }
+  .card7 {
+    max-width: 182px;
+    height: 242px;
+  }
+}
